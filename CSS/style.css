@@ -1,0 +1,126 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #7895CB;
+    padding: 50px;
+    text-align: center;
+}
+
+a {
+    border: 1px solid black;
+    padding: 30px 40px;
+    background-color: #4A55A2;
+}
+
+/* Navigation */
+#Navigation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Triangle {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+/* Title and Formula */
+.TitleFormula{
+    background-color: #4A55A2;
+    padding: 30px;
+    margin: 0;
+    color: white;
+}
+
+#LuasSegitiga {
+    text-align: center;
+    background-color: #C5DFF8;
+}
+
+#Luas {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+#KelilingSegitiga {
+    text-align: center;
+    background-color: #C5DFF8;
+}
+
+#Keliling {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+    font-size: 1rem
+}
+
+.Explanation{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+/*Form Styling*/
+label {
+    text-align: justify;
+}
+
+input {
+    border:2px solid #4A55A2;
+    border-radius: 2%;
+    padding: 10px;
+    outline: none;
+}
+
+input:focus {
+    border-color:#7895CB;
+}
+
+button {
+    padding: 18px 40px;
+    border: none;
+    border-radius: 10%;
+    background-color: #4A55A2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7895CB;
+}
+
+button:active {
+    transform: translateY(10px);
+}
+
+/* Footer */
+footer {
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    background-color: #A0BFE0;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+
+.template {
+    font-size: 12px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row ;
+    justify-content: center;
+}

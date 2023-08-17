@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator KIta</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <h1>Welcome to Katik</h1>
+            <p> Hai Sobat, Selamat datang di Katik :]</p>
+            <p>Sebuah web aplikasi sederhana yang berfungsi untuk mengitung nilai ruas dan keliling bangun datar</p>
+        </section>
+        <section>
+            <div id="Navigation">
+                <a href="#LuasSegitiga" class="Triangle"> Luas Segitiga</a>
+                <a href="#KelilingSegitiga" class="Triangle"> Keliling Segitiga </a>
+            </div>
+        </section>
+    </header>
+
+    <main id="LuasSegitiga">
+        <section>
+            <h2 class="TitleFormula"> Luas Segitiga </h2>
+            <img src="Asset/segitiga-removebg-preview.png" alt="">
+            <section>
+                <p> Rumus Luas Segitiga: </p>
+                <h5> L = 1/2 x a x t</h5>
+                <P>Dimana:</P>
+                <div class="Explanation">
+                    <p> L = Luas</p>
+                    <p> a = Alas</p>
+                    <p> t = Tinggi</p>
+                </div>
+            </section>
+        </section>
+        <section id="Luas">
+            <label for="Alas"> Alas Segitiga </label>
+            <input type="number" id="Alas" placeholder="Nilai Alas">
+            <label for="Tinggi" > Tinggi Segitiga</label>
+            <input type="number" id="Tinggi" placeholder="Nilai Tinggi">
+            <p> Hasil Hitung Luas= <span id="HasilArea"></span> </p>
+            <section>
+                <button onclick="Area()">Hitung</button>
+                <button onclick="myFunction()">Reset</button>
+            </section>
+            <script src="JS/script.js"></script>
+            <script src="JS/script2.js"></script>
+        </section>
+    </main>
+    <main id="KelilingSegitiga">
+        <section>
+            <h2 class="TitleFormula"> Keliling Segitiga </h2>
+            <img src="Asset/segitiga-removebg-preview.png" alt="">
+            <section>
+                <p> Rumus Keliling Segitiga: </p>
+                <h5> K = S1 + S2 + S3</h5>
+                <P>Dimana:</P>
+                <div class="Explanation">
+                    <p>K = Keliling</p>
+                    <p> S1 = Sisi A</p>
+                    <p> S2 = Sisi B</p>
+                    <p> S3 = Sisi C</p>
+                </div>
+            </section>
+        </section>
+        <section id="Keliling">
+            <label for="SisiA"> Sisi A Segitiga </label>
+            <input type="number" id="SisiA" placeholder="Nilai Sisi A">
+            <label for="SisiB"> Sisi B Segitiga</label>
+            <input type="number" id="SisiB" placeholder="Nilai Sisi B">
+            <label for="SisiC"> Sisi C Segitiga</label>
+            <input type="number" id="SisiC" placeholder="Nilai Sisi c">
+            <p> Hasil Hitung Keliling= <span id="HasilPerimeter"></span> </p>
+            <section>
+                <button onclick="Perimeter()">Hitung</button>
+                <button onclick="myFunction()">Reset</button>
+            </section>
+            <script src="JS/script3.js"></script>
+            <script src="JS/script4.js"></script>
+        </section>
+    </main>
+    <footer>
+        <p>Karina Aliya Fatmawati</p>
+        <p>aliyakarina9@gmail.com</p>
+        <section class="template">
+            <p>Term of Service</p>
+            <p>Privacy Policy</p>
+            <p>© 2023</p>
+        </section> 
+    </footer>
+</body>
+</html>
