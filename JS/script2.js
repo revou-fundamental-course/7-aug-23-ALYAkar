@@ -1,3 +1,5 @@
+/* Perhitungan Luas*/
+
 function Area() 
 {
     var variabelAlas = document.getElementById("Alas").value;

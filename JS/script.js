@@ -1,3 +1,5 @@
+/* Input Validation */
+
 const inputAlas = document.getElementById("Alas")
 
 inputAlas.addEventListener('input', function(){

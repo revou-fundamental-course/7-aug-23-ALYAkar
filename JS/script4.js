@@ -1,4 +1,7 @@
-function bottomReset()
+/* Reset Button */
+
+function buttonReset()
 {
-    Clear = document.getElementById("Luas").reset();
+    document.getElementById("Luas").reset();
+    document.getElementById("Keliling").reset();
 }
